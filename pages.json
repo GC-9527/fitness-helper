@@ -1,0 +1,152 @@
+{
+  "pages": [
+    {
+      "path": "pages/splash/splash",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "健身计划",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/exercises/exercises",
+      "style": {
+        "navigationBarTitleText": "动作库",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/calendar/calendar",
+      "style": {
+        "navigationBarTitleText": "打卡",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "历史记录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/plans/plans",
+      "style": {
+        "navigationBarTitleText": "训练计划",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/fatloss/fatloss",
+      "style": {
+        "navigationBarTitleText": "减脂计划",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/fatloss-result/fatloss-result",
+      "style": {
+        "navigationBarTitleText": "减脂计划结果",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/test/test",
+      "style": {
+        "navigationBarTitleText": "测试",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/exercise-detail/exercise-detail",
+      "style": {
+        "navigationBarTitleText": "动作详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/webview/webview",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/achievements/achievements",
+      "style": {
+        "navigationBarTitleText": "成就系统",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/analytics/analytics",
+      "style": {
+        "navigationBarTitleText": "数据分析",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#94a3b8",
+    "selectedColor": "#3b82f6",
+    "backgroundColor": "#0f172a",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/exercises/exercises",
+        "text": "动作库"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "健身计划",
+    "navigationBarBackgroundColor": "#0f172a"
+  },
+	"condition" : {
+		"current": 0,
+		"list": [
+			{
+				"name": "index",
+				"path": "pages/index/index",
+				"query": ""
+			}
+		]
+	}
+}
