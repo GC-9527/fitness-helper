@@ -53,6 +53,13 @@ npm run dev:app
 
 ---
 
+## 📥 下载
+
+### Android APK
+- [健身助手 v2.0.apk](releases/fitness-helper-v2.0.apk) (20.6 MB)
+
+---
+
 ## 📱 支持平台
 
 - Android APK（已打包10+版本）
@@ -74,6 +81,8 @@ uni-app-version/
 │       └── showcase/   # 案例展示图片
 ├── store/              # 状态管理
 ├── utils/              # 工具模块
+├── releases/           # 发布文件
+│   └── fitness-helper-v2.0.apk
 ├── App.vue             # 根组件
 ├── pages.json          # 页面配置
 ├── manifest.json       # 应用配置
