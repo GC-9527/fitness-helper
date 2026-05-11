@@ -89,6 +89,3 @@ uni-app-version/
 
 ---
 
-## 📄 License
-
-MIT
